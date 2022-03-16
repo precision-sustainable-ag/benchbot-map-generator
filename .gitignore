@@ -2,3 +2,8 @@
 .env
 .venv
 *.csv
+credentials.json
+token.json
+*.pyc
+__init__.py
+sample_sheets_api.py
