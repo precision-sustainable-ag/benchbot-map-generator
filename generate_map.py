@@ -30,7 +30,7 @@ def generate_map(species_by_row_sheets_key, pictures_per_species_sheets_key):
             number_of_pics['Pictures Per Row'][0])
 
     map_df = pd.DataFrame(map_obj)
-    map_df.to_csv("map.csv", index=False)
+    map_df.to_excel("map.xlsx", index=False)
 
 
 if __name__ == "__main__":
