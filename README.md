@@ -7,7 +7,7 @@ This document will go over using google sheets and a python script to generate a
 
 1. Python 3.9 installed 
 
-    - Instructions can be found here How to Download and Install Python on Windows - Data to Fish  
+    - Instructions can be found here [How to Download and Install Python on Windows - Data to Fish](https://datatofish.com/install-python/)
 
 2. A copy of credentials.json from @mikahpinegar
 
