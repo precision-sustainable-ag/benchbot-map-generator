@@ -13,13 +13,17 @@ This document will go over using google sheets and a python script to generate a
 
 **Steps**
 
-1. Clone https://github.com/precision-sustainable-ag/benchbot_map_generator
+1. Create two google sheets files for your bench bot 
+   1. species_by_row: this file details which rows are planted with what species. An example can be found here https://docs.google.com/spreadsheets/d/1lFJAUB-NKeRJ3U0ZaQpUJDIxpp06S5HR5xS8JZuXFdQ/edit#gid=0
+   2. pictures_per_species: this file shows how many pictures each species needs. This will be updated daily. An example can be found here https://docs.google.com/spreadsheets/d/11Pv_lzHuVwqJi83T8BJ_vmf_kwFnDysNmLpQAVCOMPE/edit#gid=0
+
+2. Clone https://github.com/precision-sustainable-ag/benchbot_map_generator
 
     - `cd <path to where you want repo>`
 
     - `git clone https://github.com/precision-sustainable-ag/benchbot_map_generator`
 
-2. Create virtual environment using python 3.9
+3. Create virtual environment using python 3.9
 
     - `cd benchbot_map_generator`
 
@@ -31,17 +35,17 @@ This document will go over using google sheets and a python script to generate a
 
     - `python -m venv .venv`
 
-3. Activate virtual environment
+4. Activate virtual environment
 
     - `./.venv/Scripts/activate`
 
-4. Install modules
+5. Install modules
 
     - `pip install -r  requirements.txt`
 
-5. Ask @mikahpinegar for the credentials.json file and copy it into the top level directory
+6. Ask @mikahpinegar for the credentials.json file and copy it into the top level directory
 
-6. Run the generate_map.py file and insert the google sheets IDs that are found in the URL in the browser
+7. Run the generate_map.py file and insert the google sheets IDs that are found in the URL in the browser
 
     - For example, if the sheets URL for species_by_row is https://docs.google.com/spreadsheets/d/1lFJAUB-NKeRJ3U0ZaQpUJDIxpp06S5HR5xS8JZuXFdQ/edit#gid=0 the ID is  1lFJAUB-NKeRJ3U0ZaQpUJDIxpp06S5HR5xS8JZuXFdQ
 
@@ -50,6 +54,6 @@ This document will go over using google sheets and a python script to generate a
     - The command with inserted IDs should look like this except with your keys 
 
     - `python .\generate_map.py '1lFJAUB-NKeRJ3U0ZaQpUJDIxpp06S5HR5xS8JZuXFdQ' '11Pv_lzHuVwqJi83T8BJ_vmf_kwFnDysNmLpQAVCOMPE'`
-7. Login to your google account using the OAuth popup in your browser
+8. Login to your google account using the OAuth popup in your browser
 
-8. Look at the map.xlsx file that was generated and make sure it looks correct
+9.  Look at the map.xlsx file that was generated and make sure it looks correct
