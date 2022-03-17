@@ -7,9 +7,9 @@ This document will go over using google sheets and a python script to generate a
 
 1. Python 3.9 installed 
 
-    - Windows instructions can be found here [[How to download python 3.9 on windows](https://python.tutorials24x7.com/blog/how-to-install-python-3-9-on-windows-10)
-    - Ubuntu instructions can be found here [[How to download python 3.9 on ubuntu](https://linuxize.com/post/how-to-install-python-3-9-on-ubuntu-20-04/)
-    - Mac instructions can be found here [[How to download python 3.9 on mac](https://python.tutorials24x7.com/blog/how-to-install-python-3-9-on-mac)
+    - Windows instructions can be found here [How to download python 3.9 on windows](https://python.tutorials24x7.com/blog/how-to-install-python-3-9-on-windows-10)
+    - Ubuntu instructions can be found here [How to download python 3.9 on ubuntu](https://linuxize.com/post/how-to-install-python-3-9-on-ubuntu-20-04/)
+    - Mac instructions can be found here [How to download python 3.9 on mac](https://python.tutorials24x7.com/blog/how-to-install-python-3-9-on-mac)
 
 2. A copy of credentials.json from @mikahpinegar
 
