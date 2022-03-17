@@ -9,7 +9,7 @@ This document will go over using google sheets and a python script to generate a
 
     - Instructions can be found here How to Download and Install Python on Windows - Data to Fish  
 
-2. A copy of credentials.json from @Mikah Pinegar 
+2. A copy of credentials.json from @mikahpinegar
 
 **Steps**
 
@@ -39,7 +39,7 @@ This document will go over using google sheets and a python script to generate a
 
     - `pip install -r  requirements.txt`
 
-5. Ask @Mikah Pinegar for the credentials.json file and copy it into the top level directory
+5. Ask @mikahpinegar for the credentials.json file and copy it into the top level directory
 
 6. Run the generate_map.py file and insert the google sheets IDs that are found in the URL in the browser
 
