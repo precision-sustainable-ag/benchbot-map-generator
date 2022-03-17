@@ -14,8 +14,8 @@ This document will go over using google sheets and a python script to generate a
 **Steps**
 
 1. Create two google sheets files for your bench bot 
-   1. species_by_row: this file details which rows are planted with what species. An example can be found here https://docs.google.com/spreadsheets/d/1lFJAUB-NKeRJ3U0ZaQpUJDIxpp06S5HR5xS8JZuXFdQ/edit#gid=0
-   2. pictures_per_species: this file shows how many pictures each species needs. This will be updated daily. An example can be found here https://docs.google.com/spreadsheets/d/11Pv_lzHuVwqJi83T8BJ_vmf_kwFnDysNmLpQAVCOMPE/edit#gid=0
+   1. Species_by_row: this file details which rows are planted with what species. An example can be found here https://docs.google.com/spreadsheets/d/1lFJAUB-NKeRJ3U0ZaQpUJDIxpp06S5HR5xS8JZuXFdQ/edit#gid=0
+   2. Pictures_per_species: this file shows how many pictures each species needs. This will be updated daily. An example can be found here https://docs.google.com/spreadsheets/d/11Pv_lzHuVwqJi83T8BJ_vmf_kwFnDysNmLpQAVCOMPE/edit#gid=0
 
 2. Clone https://github.com/precision-sustainable-ag/benchbot_map_generator
 
