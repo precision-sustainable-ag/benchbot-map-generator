@@ -13,7 +13,7 @@ This document will go over using google sheets and a python script to generate a
 
 **Steps**
 
-1. Clone https://github.com/precision-sustainable-ag/benchbot_map_generator - Connect to preview 
+1. Clone https://github.com/precision-sustainable-ag/benchbot_map_generator
 
     - `cd <path to where you want repo>`
 
