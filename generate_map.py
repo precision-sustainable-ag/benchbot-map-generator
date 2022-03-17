@@ -1,4 +1,5 @@
 import pandas as pd
+import sys
 
 from shared_functions.read_sheet_as_df import read_sheet_as_df
 
@@ -32,5 +33,5 @@ def generate_map(species_by_row_sheets_key, pictures_per_species_sheets_key):
     map_df.to_csv("map.csv", index=False)
 
 
-generate_map('1lFJAUB-NKeRJ3U0ZaQpUJDIxpp06S5HR5xS8JZuXFdQ',
-             '11Pv_lzHuVwqJi83T8BJ_vmf_kwFnDysNmLpQAVCOMPE')
+if __name__ == "__main__":
+    generate_map(sys.argv[1], sys.argv[2])
